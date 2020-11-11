@@ -1,0 +1,25 @@
+.KnowledgeCard {
+	display: flex;
+	height: 64px;
+	width: 256px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--color-white);
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	box-shadow: var(--box-shadow)
+}
+
+.KnowledgeCard__title {
+	color: var(--color-black);
+	margin: 0;
+	margin-left: 1rem;
+}
+
+.KnowledgeCard__img {
+	width: 64px;
+	height: 64px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

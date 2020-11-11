@@ -1,0 +1,37 @@
+.presentation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.presentation__img {
+	width: 200px;
+	border-radius: 100%;
+}
+
+.presentation__name {
+	font-family: var(--font-primary);
+	font-size: var(--font-size-medium);
+	margin: 1rem 0;
+	color: var(--color-white);
+}
+
+.presentation__info {
+	text-align: center;
+	font-size: var(--font-size-tiny);
+	color: var(--color-grey-light);
+}
+
+.presentation__social {
+	max-width: 320px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+@media (min-width: 500px) {
+	.presentation__name {
+		font-size: var(--font-size-large);
+	}
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&display=swap');
+:root {
+	--font-primary: 'Oswald';
+	--font-secondary: 'Roboto Slab';
+	--color-white: #FCFCFC;
+	--color-black: #101010;
+	--color-blue: #3170D0;
+	--color-grey-light: #DEDDDD;
+	--color-purple-light: #A923E8;
+	--font-size-large: 80px;
+	--font-size-big: 63px;
+	--font-size-medium: 48px;
+	--font-size-small: 32px;
+	--font-size-tiny: 24px;
+	--media-movile-L: 500px;
+	--box-shadow: 4px 5px 4px 0px #101010;
+}
+
+body {
+  margin: 1em;
+  font-family: -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	background: linear-gradient(180deg, #2B3843 0%, #2A4661 25%);
+	background-repeat: no-repeat;
+}
+
+h1 h2 h3 h4 {
+	font-family: var(--font-primary);
+}
+
+p {
+	font-family: var(--font-secondary);
+}
+
+.section__title {
+	font-size: var(--font-size-small);
+	text-align: center;
+	color: var(--color-white);
+	margin: 1rem 0;
+}
+
+@media (min-width: 500px) {
+	.section__title {
+		font-size: var(--font-size-medium);
+	}
+}
+
+.section__grid {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 700px) {
+	.section__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.section__grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

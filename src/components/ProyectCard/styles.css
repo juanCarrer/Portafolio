@@ -1,0 +1,21 @@
+.ProyectCard {
+	background-color: var(--color-white);
+	width: 256px;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	box-shadow: var(--box-shadow);
+}
+
+.ProyectCard__img {
+	width: 256px;
+	height: 256px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.ProyectCard__name {
+	color: var(--color-blue);
+	font-size: var(--font-size-small);
+	text-align: center;
+}
