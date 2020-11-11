@@ -2,7 +2,6 @@ import { ProyectCard } from '../ProyectCard'
 import ProyectsData from '../../assets/proyectsData'
 
 export const Proyects = () => {
-	console.log(ProyectsData)
 	return (
 		<section>
 			<h1 className='section__title'>Proyectos</h1>

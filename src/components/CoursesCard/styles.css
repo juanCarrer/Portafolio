@@ -1,0 +1,13 @@
+.coursesCard {
+	width: 100%;
+	background-color: var(--color-white);
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	box-shadow: var(--box-shadow);
+	
+}
+
+.coursesCard__name {
+	text-align: center;
+	color: var(--color-black);
+}

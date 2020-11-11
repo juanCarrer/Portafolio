@@ -1,0 +1,16 @@
+.courses__list {
+	max-width: 720px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.courses__show {
+	color: var(--color-purple-light);
+	align-self: flex-end;
+	text-decoration: none;
+	font-size: var(--font-size-tiny);
+}

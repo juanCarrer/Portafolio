@@ -40,7 +40,7 @@ p {
 	margin: 1rem 0;
 }
 
-@media (min-width: 500px) {
+@media screen and (min-width: 500px) {
 	.section__title {
 		font-size: var(--font-size-medium);
 	}
