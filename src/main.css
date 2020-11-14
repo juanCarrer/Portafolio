@@ -12,12 +12,13 @@
 	--font-size-medium: 48px;
 	--font-size-small: 32px;
 	--font-size-tiny: 24px;
+	--font-size-little: 12px;
 	--media-movile-L: 500px;
 	--box-shadow: 4px 5px 4px 0px #101010;
 }
 
 body {
-  margin: 1em;
+	margin: 0;
   font-family: -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

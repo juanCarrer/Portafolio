@@ -1,7 +1,7 @@
 import './styles.css'
-import fotoPerfil from '../../assets/images/fotoPerfil.jpg';
-import logoLinkedin from '../../assets/images/icons8-linkedin.svg';
-import logoGitHub from  '../../assets/images/icons8-github.svg';
+import fotoPerfil from '../../assets/images/fotoPerfil.jpg'
+import logoLinkedin from '../../assets/images/icons8-linkedin.svg'
+import logoGitHub from  '../../assets/images/icons8-github.svg'
 
 export const Presentation = () => {
   return (

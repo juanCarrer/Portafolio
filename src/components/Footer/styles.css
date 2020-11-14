@@ -1,0 +1,33 @@
+.footer {
+	background-color: var(--color-white);
+	width: auto;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+.footer__logos__container {
+	display: flex;
+}
+
+.footer__social__logo {
+	width: 25px;
+}
+
+.footer__info {
+	font-size: var(--font-size-little);
+	color: var(--color-black);
+	margin: 0	;
+}
+
+@media (min-width: 500px) {
+	.footer__info {
+		font-size: var(--font-size-tiny);
+	}
+}
+
+.footer__logos__container a:first-of-type {
+  margin-right: 1rem;
+}
