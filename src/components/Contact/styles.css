@@ -16,6 +16,11 @@
 	border-radius: 5px;
 	font-size: var(--font-size-small);
 	border: 0;
+	outline-color: var(--color-purple-light);
+}
+
+.Contact__form__input:focus {
+	
 }
 
 .Contact__form__button {
@@ -29,6 +34,7 @@
 	font-size: var(--font-size-tiny);
 	border: 0;
 	cursor: pointer;
+	outline-color: var(--color-white);
 }
 
 .Contact__form__button:hover {
@@ -39,4 +45,18 @@
 	.Contact__form {
 		width: 400px;
 	}
+}
+
+.contact__status {
+	margin: 0;
+	text-align: center;
+	font-size: var(--font-size-tiny);
+}
+
+.contact__status--success {
+	color: var(--color-success);
+}
+
+.contact__status--error {
+	color: var(--color-error);
 }

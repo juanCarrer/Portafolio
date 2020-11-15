@@ -7,7 +7,6 @@ export const Courses = () => {
 	const [coursesLimit, setCoursesLimit] = useState(4)
 
 	const handleClick = (limit) => {
-		console.log(limit)
 		if (!limit || typeof limit != 'number' ) {
 			setCoursesLimit(coursesData.length)
 		}
