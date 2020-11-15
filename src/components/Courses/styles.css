@@ -6,11 +6,40 @@
 	align-self: center;
 	justify-content: space-between;
 	align-items: center;
+	max-height: 666px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.courses__list::-webkit-scrollbar {
+	width: 4px;
+}
+
+.courses__list::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+
+.courses__list::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: var(--color-purple-light);
 }
 
 .courses__show {
+	max-width: 720px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.courses__show__button {
+	float: right;
+	margin: 1rem 1rem 1rem 0;
 	color: var(--color-purple-light);
-	align-self: flex-end;
-	text-decoration: none;
 	font-size: var(--font-size-tiny);
+	cursor: pointer;
+}
+
+.courses__show__button:hover {
+	animation: var(--animation-hover-scale);
 }

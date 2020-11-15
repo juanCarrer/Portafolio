@@ -1,0 +1,35 @@
+.courses__modal__main {
+	position: fixed;
+	top: 50vh;
+	left: 50%;
+	width: 288px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	background-color: var(--color-white);
+	border-radius: 5px;
+	box-shadow: var(--box-shadow);
+}
+
+.courses__modal__main__close {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	margin: 0;
+	cursor: pointer;
+}
+
+.courses__modal__main__img {
+	width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+	.courses__modal__main {
+		width: 468px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.courses__modal__main {
+		width: 668px;
+	}
+}

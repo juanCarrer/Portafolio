@@ -4,6 +4,7 @@
 	--font-secondary: 'Roboto Slab';
 	--color-white: #FCFCFC;
 	--color-black: #101010;
+	--color-transparent-black: #10101088;
 	--color-blue: #3170D0;
 	--color-grey-light: #DEDDDD;
 	--color-purple-light: #A923E8;
@@ -15,6 +16,7 @@
 	--font-size-little: 12px;
 	--media-movile-L: 500px;
 	--box-shadow: 4px 5px 4px 0px #101010;
+	--animation-hover-scale: hoverScale 0.5s forwards;
 }
 
 body {
@@ -41,15 +43,25 @@ p {
 	margin: 1rem 0;
 }
 
+.section__grid {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.modal__background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: var(--color-transparent-black);
+	z-index: 1;
+}
+
 @media screen and (min-width: 500px) {
 	.section__title {
 		font-size: var(--font-size-medium);
 	}
-}
-
-.section__grid {
-	display: grid;
-	grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 700px) {
@@ -61,5 +73,15 @@ p {
 @media screen and (min-width: 1000px) {
 	.section__grid {
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@keyframes hoverScale {
+	from {
+		transform: scale(1);
+	}
+
+	to{
+		transform: scale(1.05);
 	}
 }

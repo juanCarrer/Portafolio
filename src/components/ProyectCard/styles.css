@@ -5,6 +5,11 @@
 	margin-bottom: 1rem;
 	border-radius: 5px;
 	box-shadow: var(--box-shadow);
+	cursor: pointer;
+}
+
+.ProyectCard:hover {
+	animation: var(--animation-hover-scale);
 }
 
 .ProyectCard__img {
@@ -18,4 +23,5 @@
 	color: var(--color-blue);
 	font-size: var(--font-size-small);
 	text-align: center;
+	margin: 1rem 0;
 }

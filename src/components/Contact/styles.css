@@ -15,6 +15,7 @@
 	box-shadow: var(--box-shadow);
 	border-radius: 5px;
 	font-size: var(--font-size-small);
+	border: 0;
 }
 
 .Contact__form__button {
@@ -26,6 +27,12 @@
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
 	font-size: var(--font-size-tiny);
+	border: 0;
+	cursor: pointer;
+}
+
+.Contact__form__button:hover {
+	animation: var(--animation-hover-scale);
 }
 
 @media screen and (min-width: 500px) {
