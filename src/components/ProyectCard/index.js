@@ -4,22 +4,7 @@ import propTypes from 'prop-types'
 import { ProyectModal } from '../ProyectModal'
 import './styles.css'
 
-const dummyLinks = [
-	{
-		name: 'github',
-		src: 'https://github.com/juanCarrer/Micro_Procesador_arqComp',
-	},
-	{
-		name: 'page',
-		src: 'https://github.com/juanCarrer/Micro_Procesador_arqComp',
-	},
-	{
-		name: 'cliente',
-		src: 'https://github.com/juanCarrer/Micro_Procesador_arqComp',
-	},
-] 
-
-export const ProyectCard = ({ name, img }) => {
+export const ProyectCard = ({ name, img, description, links }) => {
 	const [showModal, toggleModal] = useModal(false)
 
 	return (
@@ -29,8 +14,8 @@ export const ProyectCard = ({ name, img }) => {
 				<ProyectModal 
 					name={name}
 					img={img}
-					description='Lorem ipsum dolor sit amet, consectetur aamet, consec'
-					links={dummyLinks}
+					description={description}
+					links={links}
 					close={toggleModal}
 				/>
 		}
@@ -44,5 +29,7 @@ export const ProyectCard = ({ name, img }) => {
 
 ProyectCard.propTypes = {
 	name: propTypes.string,
-	img: propTypes.string
+	img: propTypes.string,
+	description: propTypes.string,
+	links: propTypes.array
 }

@@ -52,7 +52,7 @@ export const Contact = () => {
 					name='client_mail'
 					className='Contact__form__input'
 					type='email'
-					placeholder='Email'
+					placeholder='TuCorreo@mail.com'
 				/>
 				<button className='Contact__form__button' >
 					Enviar

@@ -6,7 +6,7 @@ export const Footer = () => {
 	return (
 		<footer className='footer'>
 			<div className='footer__logos__container'>
-				<a href='#'>
+				<a href='https://www.linkedin.com/in/juan-carrero-4557321bb/' target="_blank" rel='noopener noreferrer'>
 					<img
 						className='footer__social__logo'
 						src={logoLinkedin} 
@@ -21,7 +21,7 @@ export const Footer = () => {
 					/>
 				</a>
 			</div>
-			<h3 className='footer__info '>pagina diseñada por Juan Carrero</h3>
+			<h3 className='footer__info '>Pagina diseñada por Juan Carrero</h3>
 		</footer>
 	) 
 }

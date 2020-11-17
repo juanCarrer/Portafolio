@@ -4,7 +4,8 @@ import coursesData from '../../assets/coursesData'
 import './styles.css'
 
 export const Courses = () => {
-	const [coursesLimit, setCoursesLimit] = useState(4)
+	const defaultLimit = 5
+	const [coursesLimit, setCoursesLimit] = useState(defaultLimit)
 
 	const handleClick = (limit) => {
 		if (!limit || typeof limit != 'number' ) {
@@ -25,6 +26,7 @@ export const Courses = () => {
 						<CoursesCard
 							key={`courses-item-${i}`}
 							name={item.name}
+							src={item.src}
 						/>
 					))
 			}
@@ -34,7 +36,7 @@ export const Courses = () => {
 					(!(coursesLimit === coursesData.length)) ?
 						<p onClick={handleClick} className='courses__show__button'>Ver Todos</p>
 					:	
-						<p onClick={() => handleClick(4)} className='courses__show__button'>Ver Menos</p>
+						<p onClick={() => handleClick(defaultLimit)} className='courses__show__button'>Ver Menos</p>
 				}
 			</div>
 		</section>

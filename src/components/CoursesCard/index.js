@@ -4,7 +4,7 @@ import { useModal } from '../../hooks/useModal'
 import { CoursesModal } from '../CoursesModal'
 import './styles.css'
 
-export const CoursesCard = ({ name }) => {
+export const CoursesCard = ({ name, src }) => {
 	const [showModal, toggleModal] = useModal(false)
 
 	return (
@@ -13,6 +13,8 @@ export const CoursesCard = ({ name }) => {
 				showModal &&
 					<CoursesModal 
 						close={toggleModal}
+						courseName={name}
+						src={src}
 					/> 
 			}
 			<div onClick={toggleModal} className='coursesCard'>
@@ -23,5 +25,6 @@ export const CoursesCard = ({ name }) => {
 }
 
 CoursesCard.propTypes = {
-	name: propTypes.string
+	name: propTypes.string,
+	src: propTypes.string
 }

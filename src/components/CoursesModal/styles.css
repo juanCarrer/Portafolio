@@ -5,9 +5,7 @@
 	width: 288px;
 	transform: translate(-50%, -50%);
 	overflow: hidden;
-	background-color: var(--color-white);
 	border-radius: 5px;
-	box-shadow: var(--box-shadow);
 }
 
 .courses__modal__main__close {
@@ -20,6 +18,18 @@
 
 .courses__modal__main__img {
 	width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+	.courses__modal__main {
+		width: 343px;
+	}
+}
+
+@media screen and (min-width: 425px) {
+	.courses__modal__main {
+		width: 393px;
+	}
 }
 
 @media screen and (min-width: 500px) {

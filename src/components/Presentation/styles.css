@@ -20,6 +20,8 @@
 	text-align: center;
 	font-size: var(--font-size-tiny);
 	color: var(--color-grey-light);
+	margin: 0;
+	margin-bottom: 1rem;
 }
 
 .presentation__social {

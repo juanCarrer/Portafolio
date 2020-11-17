@@ -8,7 +8,13 @@ export const Proyects = () => {
 			<div className='section__grid'>
 			{
 				ProyectsData && ProyectsData.map((item, i) => {
-					return <ProyectCard key={`proyec-item-${i}`} name={item.name} img={item.img} />
+					return <ProyectCard
+							key={`proyec-item-${i}`}
+							name={item.name}
+							img={item.img}
+							description={item.description}
+							links={item.links}
+						/>
 				})
 			}
 			</div>

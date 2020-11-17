@@ -2,9 +2,7 @@ import propTypes from 'prop-types'
 import closeButton from '../../assets/images/icons8-close.png' 
 import './styles.css'
 
-const dummySrc = 'https://usefulangle.com/img/thumb/javascript.png'
-
-export const CoursesModal = ({ courseName, src = dummySrc, close }) => {
+export const CoursesModal = ({ courseName, src, close }) => {
 	return (
 		<div className='modal__background'>
 			<div className='courses__modal__main'>

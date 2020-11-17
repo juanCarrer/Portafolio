@@ -2,6 +2,7 @@
 	position: fixed;
 	width: 288px;
 	height: auto;
+	max-height: 100vh;
 	top: 50vh;
 	left: 50%;
 	transform: translate(-50%, -50%);
