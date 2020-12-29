@@ -38,7 +38,7 @@ export const Contact = () => {
 
 	return (
 		<section onSubmit={sendEmail}>
-			<h1 className='section__title'>Contactame</h1>
+			<h1 className='section__title'>Contáctame</h1>
 			<form className='Contact__form'>
 				<input
 					required
@@ -52,7 +52,7 @@ export const Contact = () => {
 					name='client_mail'
 					className='Contact__form__input'
 					type='email'
-					placeholder='TuCorreo@mail.com'
+					placeholder='TuCorreo'
 				/>
 				<button className='Contact__form__button' >
 					Enviar

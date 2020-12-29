@@ -21,7 +21,7 @@ export const Footer = () => {
 					/>
 				</a>
 			</div>
-			<h3 className='footer__info '>Pagina diseñada por Juan Carrero</h3>
+			<h3 className='footer__info '>Página diseñada por Juan Carrero</h3>
 		</footer>
 	) 
 }

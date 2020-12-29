@@ -9,7 +9,7 @@ export const Presentation = () => {
         <img className='presentation__img' src={fotoPerfil} alt='foto de perfil Juan' />
         <h1 className='presentation__name'>Juan Carrero</h1>
         <p className='presentation__info'>
-          Desarrollador frontend y backend con pasión por el diseño de interfaces y aprender nuevas tecnologías
+          Desarrollador frontend con pasión por el diseño de interfaces y aprender nuevas tecnologías
         </p>
         <div className='presentation__social'>
           <a href='https://www.linkedin.com/in/juan-carrero-4557321bb/' target="_blank" rel='noopener noreferrer'>

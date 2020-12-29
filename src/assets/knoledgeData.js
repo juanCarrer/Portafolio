@@ -1,5 +1,5 @@
 import srcJavaScript from './images/javaScript.svg'
-import srcHtml from './images//html.svg'
+import srcHtml from './images/html.svg'
 import srcCss from './images/css.svg'
 import srcReact from './images/react.svg'
 import srcNext from './images/nextJs.svg'

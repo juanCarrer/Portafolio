@@ -91,7 +91,7 @@ const data = [
 		src: srcGatsby
 	},
 	{
-		name: 'NodeJs Practico',
+		name: 'NodeJs Práctico',
 		src: srcNodeJsPractico
 	},
 	{
@@ -115,7 +115,7 @@ const data = [
 		src: srcExpresionesRegulares
 	},
 	{
-		name: 'Fundamentos de ingenieria de software',
+		name: 'Fundamentos de ingeniería de software',
 		src: srcIngeSoftware
 	},
 	{
@@ -139,7 +139,7 @@ const data = [
 		src: srcMarcaPresonal
 	},
 	{
-		name: 'Optimizacion de carga de sition web',
+		name: 'Optimización de carga de sition web',
 		src: srcOpstimizacion
 	},
 	{
