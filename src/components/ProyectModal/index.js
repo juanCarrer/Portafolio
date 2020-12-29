@@ -1,10 +1,19 @@
+import { useRef } from 'react'
 import propTypes from 'prop-types'
 import closeButton from '../../assets/images/icons8-close.png' 
 import './styles.css'
 
 export const ProyectModal = ({ name, img, description = 'texto por defecto', links, close }) => {
+	const modalOutside = useRef() 
+
+	const clickOutsideHandler = (e) => {
+		if (e.target === modalOutside.current) {
+			close()
+		}
+	}
+
 	return ( 
-		<div className='modal__background'>
+		<div className='modal__background' onClick={clickOutsideHandler} ref={modalOutside}>
 			<div className='proyect__modal__main'>
 				<div>
 					<img

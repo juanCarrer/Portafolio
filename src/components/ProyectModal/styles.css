@@ -1,6 +1,7 @@
 .proyect__modal__main {
 	position: fixed;
 	width: 288px;
+  max-height: 100vh;
 	height: auto;
 	max-height: 100vh;
 	top: 50vh;
@@ -8,6 +9,7 @@
 	transform: translate(-50%, -50%);
 	background-color: var(--color-white);
 	overflow: hidden;
+  overflow-y: initial;
 	border-radius: 5px;
 	box-shadow: var(--box-shadow);
 }
