@@ -12,7 +12,7 @@ export const Presentation = () => {
           Desarrollador frontend con pasión por el diseño de interfaces y aprender nuevas tecnologías
         </p>
         <div className='presentation__social'>
-          <a href='https://www.linkedin.com/in/juan-diego-carrero-4557321bb/' target="_blank" rel='noopener noreferrer'>
+          <a href='https://www.linkedin.com/in/juancarrer' target="_blank" rel='noopener noreferrer'>
             <img
               className='presentation__social__logo'
               src={logoLinkedin} 
